@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* NAVBAR */
+.navbar{
+    background-color: #0a58ca
+    ;
+  }
+
+.titulo-nav{
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FIM DA NAVBAR ESTILOS */
+
+/* ESTILOS DO MAIN */
+.textarea-container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+#botao-copiar{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+#alerta-copiado {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #alerta-copiado.mostrar {
+    opacity: 1;
+  }
+ 
+
+h1{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FIM DOS ESTILOS DO MAIN */
